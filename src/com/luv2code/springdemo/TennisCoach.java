@@ -15,10 +15,12 @@ public class TennisCoach implements Coach {
 	
 	// define a setter method
 	@Autowired
-	public void setFortuneService(FortuneService theFortuneService) {
-		System.out.println(">> TennisCoach: iniside setFortuneService() method");
+	public void doSomeCrazyStuff(FortuneService theFortuneService) {
+		System.out.println(">> TennisCoach: iniside doSomeCrazyStuff() method");
 		fortuneService = theFortuneService;
 	}
+	
+	
 	
 	/*
 	@Autowired
